@@ -22,7 +22,7 @@
     "clean": "npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
-    "major": "node tools/bump-version.js major && git add . && npm version -f major",
+    "major": "node tools/bump-version.js major && git add . && npm version -f major",j
     "minor": "node tools/bump-version.js minor && git add . && npm version -f minor",
     "patch": "node tools/bump-version.js patch && git add . && npm version -f patch",
     "perfectionist": "perfectionist github-commit-limit.user.css github-commit-limit.user.css --indentSize 2 --maxAtRuleLength 250",
